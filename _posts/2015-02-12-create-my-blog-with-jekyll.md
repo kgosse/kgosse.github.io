@@ -1,106 +1,106 @@
 ---
 layout: post
-title:  "Jekyll 搭建静态博客"
+title:  "Jekyll Static build blog"
 date:   2015-02-15 22:14:54
 categories: jekyll
-excerpt: Jekyll Github 搭建静态博客 blog 高浩阳 使用多说评论系统 以及Jia分享插件 参考git教程
+excerpt: Jekyll Github build static blog blog use high Yang Hao and Jia system to say Comments Share widget reference git tutorials
 ---
 
 * content
 {:toc}
 
 
-## 序
+## Ordre
 
-一直以来都想搭建一个自己的博客，但是近半年做项目太忙，再加上教研室的网络很坑爹，所以也一直没顾得上。之前用过 WordPress 托管在免费的京东云擎上，但是速度太慢。在知乎上看到一些相关的内容，于是选择了在github上用jekyll搭建博客。
-
----
-
-## 搭建过程
-
-在jekyll的官网上 [http://jekyllrb.com/](http://jekyllrb.com/) 其实已经说得比较明白了，我在这里还是简单的说一下吧。我用的是Windows系统。    
-主要环节有：安装Ruby，安装RubyGems，安装jekyll，安装代码高亮插件，安装node.js
+Vous avez toujours voulu créer votre propre blog, mais au cours des six derniers mois est trop occupé pour faire le projet, en collaboration avec le Département du réseau est le père très au stand, il n'a pas de rechange. Auparavant, WordPress utilisé hébergé sur le moteur sans nuage Jingdong, mais trop lent. Nous voyons une partie du contenu sur le connu presque, il a donc choisi de construire sur le blog github avec jekyll.
 
 ---
 
-### 安装Ruby
+## Processus de construction
 
-ruby官网下载安装：[https://www.ruby-lang.org/en/downloads/](https://www.ruby-lang.org/en/downloads/)
+Dans le site officiel de jekyll [http://jekyllrb.com/](http://jekyllrb.com/) est déjà un peu plus clair, et je suis ici ou parle tout simplement à ce sujet. J'utilise le système Windows.
+Les principaux aspects sont les suivants: Installer Ruby, installer RubyGems, installez jekyll, le code soulignant installation plug-in, node.js d'installation
 
-安装完成后配置环境变量
+---
 
-在命令提示符中，得到ruby版本号，如下图，即安装成功
+### Installer Ruby 
+
+site officiel de rubis pour télécharger et installer：[https://www.ruby-lang.org/en/downloads/](https://www.ruby-lang.org/en/downloads/)
+
+Configurer les variables d'environnement après l'installation est terminée
+
+À l'invite de commande, obtenir ruby numéro de version, comme indiqué ci-dessous, que l'installation a réussi
 ![ruby-v]({{ "/css/pics/ruby-v.png"}})
 
 ---
 
-### 安装RubyGems
+### Installer RubyGems
 
-官网下载 [http://rubygems.org/pages/download](http://rubygems.org/pages/download) rubygems-2.4.5.zip   
+Site officiel pour télécharger [http://rubygems.org/pages/download](http://rubygems.org/pages/download) rubygems-2.4.5.zip   
 
-cd到RubyGems目录   
+cd pour les RubyGems d'annuaire
 
 ![ruby-gems]({{ "/css/pics/ruby-gems.png"}})    
 
-执行安装   
+l'installation   
 
 ![ruby-gems-setup]({{"/css/pics/ruby-gems-setup.png"}})   
 
 ---
 
-### 用RubyGems安装Jekyll
+### With RubyGems installation Jekyll
 
-执行下面的语句安装   
+Execute the following statement to install
 
 ![jekyll-setup]({{"/css/pics/jekyll-setup.png"}})   
 
-安装结束画面   
+End of Installation Screen
 
 ![jekyll-setup-finish]({{"/css/pics/jekyll-setup-finish.png"}})   
 
-至此jekyll就已经安装完毕了，后续就是个性化的自己设定了。   
+So far jekyll has been installed, and is the follow-up to their own personalized set.
 
 ---
 
-### 创建博客
+### Create a blog
 
-在d盘新建一个工作区jekyllWorkspace
+In the d disk to create a new workspace jekyll Workspace
 
-cd到jekyllWorkspace   
+cd 到 Jekyll Workspace
 
-执行jekyll new name创建新的工作区   
+Executive jekyll new name to create a new workspace
 
 ![jekyllWorkSpace]({{"/css/pics/jekyllWorkSpace.png"}})   
 
-文件结构如下：   
+File structure is as follows：   
 
 ![jekyllFiles]({{"/css/pics/jekyllFiles.png"}})
 
-cd到博客文件夹，开启服务器   
+cd to the blog folder, turn on the server
 
 ![serve]({{"/css/pics/serve.png"}})   
 
-watch为了检测文件夹内的变化，即修改后不需要重新启动jekyll
+watch in order to detect changes in the folder is, after modification does not need to restart jekyll
 
-我的环境下启动报错(你的可能没有)，再安装yajl-ruby和rouge  
+My environment started being given (you may not), then install yajl-ruby and rouge
 
 ![yajl]({{"/css/pics/yajl.png"}})
 
-再次启动服务器成功
+Start the server again successful
 
 ![serve-sucess]({{"/css/pics/serve-sucess.png"}})
 
-访问 http://localhost:4000/   
+access http://localhost:4000/   
 
 ![browser]({{"/css/pics/browser.png"}})   
 
-详细文章页面   
+Detailed article page
 
 ![browser2]({{"/css/pics/browser2.png"}})  
 
 ---
 
-##后续 
+##Follow-up 
 
 *  整个安装过程参考了jekyll官网，注意jekyll还有一个简体中文官网，不过比较坑（我就被坑了），有些内容没有翻译过来，有可能会走弯路，建议如果想看中文的相关资料，也要中英对照着阅读。[jekyll中文网 http://jekyllcn.com](http://jekyllcn.com), [jekyll英文网 http://jekyllrb.com](http://jekyllrb.com)
 *  jekyll中的css是用sass写的，当然直接在`_sass/_layout.scss`中添加css也是可以的。
