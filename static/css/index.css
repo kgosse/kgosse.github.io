@@ -486,3 +486,7 @@ blockquote:last-child {
 		padding-left: 25px;
 	}
 }
+
+.navbar {
+	border-radius: 0;
+}
