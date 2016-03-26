@@ -14,8 +14,8 @@ twitter_username: kevingosse10
 github_username: kgosse
 permalink: /:year/:month/:day/:title/
 
-#disqus_shortname: lixizhi
-#disqus_url: "http://lixizhi.github.io"
+disqus_shortname: kgappsblog
+disqus_url: "https://kgosse.github.io"
 
 
 # Build settings
