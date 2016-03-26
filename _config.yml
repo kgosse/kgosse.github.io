@@ -17,6 +17,7 @@ permalink: /:year/:month/:day/:title/
 disqus_shortname: kgappsblog
 disqus_url: "https://kgosse.github.io"
 
+google_analytics: UA-75224628-2
 
 # Build settings
 markdown: kramdown
