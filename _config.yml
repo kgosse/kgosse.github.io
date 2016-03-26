@@ -14,6 +14,10 @@ twitter_username: kevingosse10
 github_username: kgosse
 permalink: /:year/:month/:day/:title/
 
+#disqus_shortname: lixizhi
+#disqus_url: "http://lixizhi.github.io"
+
+
 # Build settings
 markdown: kramdown
 gems: [jekyll-paginate]
