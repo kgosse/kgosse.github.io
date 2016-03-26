@@ -10,7 +10,7 @@ description: 浩阳的博客 前端爱好者
 
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
+twitter_username: kevingosse10
 github_username: kgosse
 permalink: /:year/:month/:day/:title/
 
