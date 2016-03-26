@@ -5,5 +5,5 @@ permalink: /about/
 icon: glyphicon-heart
 ---
 
-To be done!
+Coming soon...
 
