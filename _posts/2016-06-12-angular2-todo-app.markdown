@@ -121,9 +121,9 @@ export class TodoStore {
 Finally, I have created a service (src/services/todo.services.ts) which is injected in all the components. Notice that this service is the only way
 for the components to interact with the TodoStore. The thing I like the most with this service is that it helps synchronising
 the application's state between the components. Consider the following case: The user decides to show only the remaining todos
-by selecting the appropriate status in select input. How to make the TodoListComponent refresh its content according to the new
-status selected ? My solution was to add an EventEmitter attribut inside the TodoService. As it is injected in all the components,
-they can subscribe to that attribut (todoEvent) in order listen and handle emitted actions and also use it to emit their own actions. That way,
+by selecting the appropriate status in the select input. How to make the TodoListComponent refresh its content according to the new
+status selected ? My solution was to add an EventEmitter member attribute inside the TodoService. As it is injected in all the components,
+they can subscribe to that attribute (todoEvent) in order listen and handle emitted actions and also use it to emit their own actions. That way,
 when the StatusSelector component emit an action (STATUS_CHANGE) for a change inside the select input, here is how this one is handle inside the
 TodoList component :
 
@@ -157,8 +157,8 @@ TodoList component :
 ## Conclusion
 
 Angular 2 is a very interesting framework. It comes with all the things to let you have a very solid MVC structure
-(like angular 1). But, since I have started developing apps using flux pattern thanks to react, I fall in love with
-it. That's why, even if this app is working properly, I'm going to make another version of it in flux and redux way. 
+(like angular 1). But, since I have started developing apps using [flux pattern][flux] thanks to [React][react], I fall in love with
+it. That's why, even if this app is working properly, I'm going to make another version of it in [flux][flux] and [Redux][redux] way. 
 
 
 [1]:https://github.com/kgosse/ng2todoapp
@@ -166,4 +166,7 @@ it. That's why, even if this app is working properly, I'm going to make another 
 [3]:https://nodejs.org/en/
 [4]:https://git-scm.com/
 [5]:https://locahlhost:8080
+[react]:https://facebook.github.io/react/
+[redux]:http://redux.js.org/index.html
+[flux]:https://facebook.github.io/flux/docs/overview.html
 [ComponentsStructure]:{{"/static/images/ComponentsStructure.png" | prepend: site.baseurl }}
