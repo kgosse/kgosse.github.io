@@ -161,7 +161,7 @@ Angular 2 is a very interesting framework. It comes with all the things to let y
 it. That's why, even if this app is working properly, I'm going to make another version of it in [flux][flux] and [Redux][redux] way. 
 
 
-[1]:https://github.com/kgosse/ng2todoapp
+[1]:https://kgosse.github.io/ng2todoapp
 [2]:https://github.com/kgosse/ng2todoapp
 [3]:https://nodejs.org/en/
 [4]:https://git-scm.com/
