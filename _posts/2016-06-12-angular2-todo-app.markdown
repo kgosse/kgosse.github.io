@@ -124,7 +124,7 @@ the application's state between the components. Consider the following case: The
 by selecting the appropriate status in the select input. How to make the TodoListComponent refresh its content according to the new
 status selected ? My solution was to add an EventEmitter member attribute inside the TodoService. As it is injected in all the components,
 they can subscribe to that attribute (todoEvent) in order to listen and handle emitted actions and also use it to emit their own actions. That way,
-when the StatusSelector component emit an action (STATUS_CHANGE) for a change inside the select input, here is how this one is handle inside the
+when the StatusSelector component emit an action (STATUS_CHANGE) for a change inside the select input, here is how this one is handled inside the
 TodoList component :
 
 {% highlight javascript %}
