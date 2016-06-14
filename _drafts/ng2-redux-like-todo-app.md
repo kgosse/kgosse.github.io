@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Angular 2 Todo App"
+title:  "Angular 2 Redux-like Todo App"
 categories: javascript angular2 typescript
 comments: true
 ---
@@ -10,7 +10,7 @@ comments: true
 
 ## Introduction 
 
-<small>Before anything, I would like to say english is not my mother tongue. I speak french. So be nice :-)  
+<small>Before everything, I would like to say english is not my mother tongue. I speak french. So be nice :-)  
 Feel free to email me or to leave a comment if you see any kind of mistake. I'll appreciate it. Thanks.</small>
 
 I did the classical todo app in angular 2. You can test the work by clicking on this:
