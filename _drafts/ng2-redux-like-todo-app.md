@@ -10,7 +10,7 @@ comments: true
 
 ## Introduction 
 
-<small>Before everything, I would like to say english is not my mother tongue. I speak french. So be nice :-)  
+<small>Before everything, I would like to say that english is not my mother tongue. I speak french. So be nice :-)  
 Feel free to email me or to leave a comment if you see any kind of mistake. I'll appreciate it. Thanks.</small>
 
 I did the classical todo app in angular 2. You can test the work by clicking on this:
@@ -158,7 +158,8 @@ TodoList component :
 
 Angular 2 is a very interesting framework. It comes with all the things to let you have a very solid MVC structure
 (like angular 1). But, since I have started developing apps using [flux pattern][flux] thanks to [React][react], I fall in love with
-it. That's why, even if this app is working properly, I'm going to make another version of it in [flux][flux] and [Redux][redux] way. 
+it. That's why, even if this app is working properly, I'm going to make another version of it in [flux][flux] and [Redux][redux] way.
+Thanks for reading :-)
 
 
 [1]:https://kgosse.github.io/ng2todoapp
