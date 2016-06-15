@@ -257,10 +257,10 @@ Otherwise, feel free to leave a comment below or to email me and I'll do my best
 
 ## Conclusion
 
-I'm very happy with this project. I think I've found my architecture and my stack with angular 2. I can try to do
+I'm very happy with this project. I think I've found my architecture and my stack for angular 2. I can try to do
 some more complex projects now. Thanks for reading :-)
 
-[theapp]:http://kgosse.github.io/ng2todoapp/
+[theapp]:https://kgosse.github.io/ngrx-store-todoapp/
 [githublink]:https://github.com/kgosse/ngrx-store-todoapp
 [ng2todoApp]: {{"/angular2-todo-app/" | prepend: site.baseurl }}
 [nodejs]:https://nodejs.org/en/
