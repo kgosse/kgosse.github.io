@@ -3,6 +3,7 @@ layout: post
 title:  "Angular 2 Redux-like Todo App"
 categories: javascript angular2 typescript
 comments: true
+permalink: :title/
 ---
 
 * content
