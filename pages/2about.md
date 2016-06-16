@@ -7,7 +7,7 @@ icon: glyphicon-heart
 
 Hi,  
 
-I'm a [ivorian][ivory coast] developer living in [paris, France][paris].
+I'm an [ivorian][ivory coast] developer living in [paris, France][paris].
 
    **hmm... what else can I say about me ?**
 
