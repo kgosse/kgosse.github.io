@@ -158,7 +158,7 @@ TodoList component :
 ## Conclusion
 
 Angular 2 is a very interesting framework. It comes with all the things to let you have a very solid MVC structure
-(like angular 1). But, since I have started developing apps using [flux pattern][flux] thanks to [React][react], I fall in love with
+(like angular 1). But, since I have started developing apps using [flux pattern][flux] thanks to [React][react], I felt in love with
 it. That's why, even if this app is working properly, I'm going to make another version of it in [flux][flux] and [Redux][redux] way.
 Thanks for reading :-)
 
