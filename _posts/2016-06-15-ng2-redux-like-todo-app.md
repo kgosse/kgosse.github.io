@@ -63,9 +63,9 @@ export interface AppState {
 // src/interfaces/Todo.ts
 
 export interface Todo {
-    done: boolean,
-    editing: boolean,
-    text: string
+    done: boolean;
+    editing: boolean;
+    text: string;
 }
 
 // src/interfaces/Filters
