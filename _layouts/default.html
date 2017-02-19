@@ -27,7 +27,6 @@
 
 <!-- Open a new tab for each link -->
   <script type="text/javascript">
-    window.location.href = "http://kevingosse.com";
     function addBlankTargetForLinks () {
       $('a[href^="http"]').each(function(){
           $(this).attr('target', '_blank');
@@ -37,6 +36,9 @@
     $(document).bind('DOMNodeInserted', function(event) {
       addBlankTargetForLinks();
     });
+    $(document).ready(function(){
+      window.location.href = "http://kevingosse.com";
+    })
   </script>
   </body>
 </html>
